@@ -8,6 +8,8 @@
     <!--Bootstrap CSS-->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
 
+    <link rel="stylesheet" href="css/style.css" />
+
     <title>Document</title>
 </head>
 
@@ -19,20 +21,53 @@
 
     <!--Navigation-->
     <div class="container">
-        <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+        <nav class="navbar navbar-expand-md navbar-light sticky-top">
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#siteNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="#siteNavbar">
-                <ul class="navbar-nav">
-                    <li class="navbar-item"><a href="#" class="navbar-link">Adopt</a></li>
-                    <li class="navbar-item"><a href="#" class="navbar-link">Volunteer</a></li>
-                    <li class="navbar-item"><a href="#" class="navbar-link">About Us</a></li>
-                    <li class="navbar-item"><a href="#" class="navbar-link">Contact Us</a></li>
+                <ul class="navbar-nav left col-md-4">
+                    <li class="nav-item col"><a href="#" class="nav-link">Adopt</a></li>
+                    <li class="nav-item col"><a href="#" class="nav-link">Volunteer</a></li>
+                </ul>
+                <ul class="navbar-nav right col-md-4 offset-md-4">
+                    <li class="nav-item col"><a href="#" class="nav-link">About Us</a></li>
+                    <li class="nav-item col"><a href="#" class="nav-link">Contact Us</a></li>
                 </ul>
             </div>
         </nav>
     </div>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col">
+                <h2>How to Help</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <h2>Save a Life Today</h2>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                Available Dogs
+            </div>
+            <div class="col">
+                Available Cats
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="col-4">Links</div>
+            <div class="col-4">Image</div>
+            <div class="col-4">Contact Us</div>
+        </div>
+    </footer>
 
     <!--JavaScript plugins-->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
