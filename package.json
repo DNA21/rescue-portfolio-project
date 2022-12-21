@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.5.2",
+    "bootstrap-icons": "^1.10.2",
     "font-awesome": "^4.7.0",
     "fontawesome-free": "^1.0.4",
     "jquery": "^3.5.1",
