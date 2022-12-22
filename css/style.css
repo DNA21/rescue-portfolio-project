@@ -2,10 +2,43 @@
     text-transform: uppercase;
 }
 
+#siteNavbar {
+    text-align: right;
+}
+
+.index-images, .banner{
+    background-size: cover;
+    min-height: 50vh;
+}
+
+@media (max-width: 1400px) {
+    .banner {
+        min-height: 40vh;
+    }
+}
+
+@media (max-width: 768px) {
+    .index-images {
+        min-height: 30vh;
+    }
+}
+
 .card-donate {
     padding-top: 60px;
 }
 
 .card-title-align {
     padding-top: 85px
+}
+
+#saveALife {
+    height: 300px;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+
+h3 {
+    color: white;
+    font-size: 4rem;
 }
