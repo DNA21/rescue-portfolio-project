@@ -46,3 +46,11 @@ h3 {
 .footer-icon {
     font-size: 2rem;
 }
+
+.bg-teal {
+    background-color: rgba(140, 204, 199, 255);
+}
+
+.flex-fill {
+    flex: 1;
+}
